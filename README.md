@@ -40,7 +40,7 @@ Currently: Incoming AI SWE Intern building RAG systems and LLM workflows for a t
 - Redis caching by embedding hash cutting LLM latency by **~60%**
 - Built custom LLM-as-judge evaluation framework from scratch
 
-[View Project →](https://github.com/asayenju/PM_review_rag)
+[View Project →](https://pm-review-rag.vercel.app/)
 
 ---
 
