@@ -1,143 +1,65 @@
-<h1 align="center">Hey, I'm Ashwin 👋</h1>
+# Hi, I'm Ashwin Sayenju 👋
 
-<p align="center">
-  <b>CS + Accelerated MS @ UMass Amherst</b> • GPA 3.83 • Dean's List 4x
-  <br/>
-  Building agentic AI systems, RAG pipelines, and full-stack products that ship to real users
-</p>
+CS senior at **UMass Amherst** (3.83 GPA, Dean's List 4×) building AI-powered and full-stack products. I like finding the real bottleneck first, then fixing it with the simplest design that holds up.
 
-<p align="center">
-  <a href="https://linkedin.com/in/ashwin-sayenju">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="mailto:asayenju@umass.edu">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-  <a href="https://github.com/asayenju">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-</p>
+**Right now** I'm focused on agentic systems, RAG pipelines, and the backend infrastructure that keeps them reliable. I'm looking for new grad software engineering roles starting 2027.
+
+📍 Amherst, MA · ✉️ [ashwinsayenju@gmail.com](mailto:ashwinsayenju@gmail.com) · 💼 [LinkedIn](https://www.linkedin.com/in/ashwin-sayenju)
 
 ---
 
-## 🧠 What I'm About
+## What I've shipped
 
-I don't build demos. I build things people use.
+**Desmata Inc.** · AI Software Engineer Intern · Summer 2026
+- Built the agent architecture and the React/TypeScript and Python stack of an unreleased AI travel planner for backpackers in remote areas.
+- Cut LLM tokens per query from **300K to 10K** after finding one agent reasoning over 20 to 30 tools, then splitting it into specialized agents with a small open-source model for routing.
+- Lowered latency **25%** with a Redis cache after telemetry showed repeated flight searches overloading the backend.
+- Deployed flight and hotel agents as **8 services** on Kubernetes and AWS, using gRPC between internal services.
+- Created an LLM-as-a-judge evaluation harness that scored agents **4.89/5** on taking the right action.
 
-From shipping a fintech app to **20,000+ devices** with a **4.5/5 App Store rating**, to building RAG pipelines with **92.3% retrieval recall** and agentic systems that run end to end without a human in the loop — I care about systems that are fast, measurable, and production-ready.
+**Unlimited Cloud** · Software Engineer Intern · Summer 2025
+- Delivered a money-transfer app for **5 international clients and 10K customers** with a Java backend, GraphQL, TypeScript/React Native, and Kotlin, using HTTPS and OTP authentication to meet fintech laws.
+- Raised availability from **99.9% to 99.99%** with a backup microservice that fails over automatically.
+- Decreased onboarding drop-off **30%** and lifted CSAT to **4.5/5** by redesigning onboarding as staged loading.
 
-Currently: Incoming AI SWE Intern building RAG systems and LLM workflows for a travel planning platform. Undergraduate researcher at UMass. Always building something.
-
----
-
-## 🚀 Featured Projects
-
-### 🔍 PM Feature Reviewer RAG
-> Next.js · FastAPI · Python · pgvector · Redis · OpenAI API
-
-- **92.3% retrieval recall** and **4.73/5 LLM-as-judge score** across faithfulness, relevance, and completeness
-- HNSW indexing with cosine similarity over 1536-dim OpenAI embeddings
-- Redis caching by embedding hash cutting LLM latency by **~60%**
-- Built custom LLM-as-judge evaluation framework from scratch
-
-[View Project →](https://pm-review-rag.vercel.app/)
+**UMass Amherst ERSP** · IoT and ML Researcher · 2024 to 2025
+- Wrote C++ sensor code and a data pipeline for bike and ride-sharing driver intoxication detection.
+- Streamed **100,000+ data points at 166 req/sec and 19ms latency** through Kafka with circuit breaking.
+- Trained head-gesture classifiers in PyTorch and TensorFlow, reaching **94% accuracy** across 400+ datasets.
 
 ---
 
-### 🤖 Smart Meeting Scheduler & Email Assistant
-> Python · FastAPI · React · Google Calendar API · Gmail API · OAuth 2.0
+## Featured projects
 
-- Fully agentic pipeline: classifies intent, resolves conflicts, drafts emails — zero human in the loop
-- **500+ requests/week** at **40ms end-to-end latency**
-- Reduced scheduling coordination overhead by **70%**
-- Stateful multi-turn conversation with real-time conflict detection
-
-[View Project →](https://github.com/asayenju/meeting_schedule_assistant)
-
----
-
-### 🎤 Interview Practice AI
-> TypeScript · React · Node.js · Gemini API · Google Speech-to-Text · GCP · AWS S3
-
-- Voice-driven AI coaching platform scoring responses across content, confidence, and filler-word frequency
-- GCP + AWS S3 audio pipeline supporting **8-hour sessions**, buffering errors reduced by **95%**
-- Sub-second feedback loop via Speech-to-Text + Gemini LLM
-
-[View Project →](https://interview-practice-ai-frontend.vercel.app/)
+| Project | What it does | Stack |
+|---|---|---|
+| [**Memora**](https://github.com/asayenju/club_operations_slack_agent) | Slack hackathon project. An agentic AI feature that reconciles conflicting records across 3 enterprise systems, with OAuth, MCP, encrypted tokens, and human review of low-confidence decisions. Elo-style source confidence tiers reach 95% recall and precision with 452 pytest tests. | Python, Claude API, pgvector, Slack, Google APIs |
+| [**Amex Developer Portal Assistant**](https://amex-developerportal-rag.vercel.app/) | RAG assistant that answers developer questions across large documentation sets. Reaches 99.3% recall@3 and 4.76/5 faithfulness on a 50-question LLM-judge harness, and uses OCR for documentation that only lives in images. | Python, FastAPI, pgvector, React, TypeScript |
+| [**PM Feature Reviewer RAG**](https://github.com/asayenju/PM_review_rag) | RAG tool for reviewing product features, with 92.3% retrieval recall and Redis caching that cuts LLM latency by about 60%. | Next.js, FastAPI, pgvector, Redis |
+| [**Smart Meeting Scheduler**](https://github.com/asayenju/meeting_schedule_assistant) | Agentic pipeline for intent classification, conflict resolution, and email drafting over Google Calendar and Gmail. | Python, FastAPI, React, OAuth 2.0 |
+| [**Interview Practice AI**](https://github.com/asayenju/interview-practice-ai-frontend) | Voice-driven interview coaching platform that scores your responses. | TypeScript, React, Gemini API, GCP |
+| [**Campus Bikes**](https://github.com/Oren-Schmerling/CampusBikes) | Real-time bike and scooter rental marketplace for 27,000 students. I led a 4-person Agile team with 24 REST endpoints and 39 tests in CI. | Java, Spring Boot, PostgreSQL, WebSockets |
 
 ---
 
-### 🚲 Campus Bikes: Rental Platform
-> Java · Spring Boot · Next.js · PostgreSQL · WebSockets · GitLab CI/CD
+## Tech I work with
 
-- Full-stack rental platform serving **27,000+ UMass students**
-- Real-time WebSocket messaging between renters and buyers
-- Reduced transportation costs by **40%** vs traditional rentals
-- JWT auth, BCrypt hashing, GitLab CI/CD pipeline
+**Languages** Python · TypeScript · Java · JavaScript · SQL · C/C++ · Go
 
-[View Project →](https://github.com/asayenju)
+**Backend and APIs** FastAPI · Spring Boot · REST · GraphQL · gRPC · OAuth
 
----
+**Frontend** React · Next.js · React Native
 
-## 🛠️ Tech Stack
+**Data and cloud** PostgreSQL · MySQL · Redis · Kafka · Docker · Kubernetes · AWS · GitLab CI/CD · Prometheus
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi"/>
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
-</p>
+**AI and agents** Agentic systems · RAG · MCP · LLM evaluations · Claude API · Claude Code · Cursor · Copilot
 
 ---
 
-## 📈 Experience
+## How I like to work
 
-| Role | Company | Period |
-|------|---------|--------|
-| AI SWE Intern | Travel AI Platform | Summer 2026 (Incoming) |
-| Software Developer Intern | Unlimited Cloud | June – Aug 2025 |
-| ERSP Researcher | UMass Amherst | Sept 2024 – May 2025 |
+- **Start from the problem.** I read telemetry, competitor flows, and failure cases before writing code.
+- **Measure it.** Every project above has a number attached, from token counts to recall to availability.
+- **Own the handoff.** I document what I built, how to improve it, and then teach the next person.
 
----
-
-## 🏆 Highlights
-
-- 🎓 Dean's List 4x · Chancellor's Award · Early Research Scholars Program
-- 📱 Shipped React Native fintech app to **20,000+ devices** · 4.5/5 rating · 37% install growth
-- 🔬 IoT pipeline sustaining **166 req/sec at 19ms latency**
-- 🤖 ML classifiers at **94% accuracy** across 400+ motion datasets
-- 📊 RAG system at **92.3% recall** with custom evaluation framework
-
----
-
-<p align="center">
-  <i>Always building. Always shipping. Let's connect.</i>
-</p>
+Open to chat about agents, RAG, or infrastructure. Feel free to reach out.
