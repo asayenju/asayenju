@@ -1,3 +1,16 @@
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:0f2027,50:203a43,100:2c5364&section=header" width="100%" alt="" />
+</p>
+
+<table>
+<tr>
+<td width="170" valign="top">
+
+<img src="https://github.com/asayenju.png?size=300" width="150" alt="Ashwin Sayenju" />
+
+</td>
+<td valign="top">
+
 # Hi, I'm Ashwin Sayenju 👋
 
 CS senior at **UMass Amherst** (3.83 GPA, Dean's List 4×) building AI-powered and full-stack products. I like finding the real bottleneck first, then fixing it with the simplest design that holds up.
@@ -6,11 +19,15 @@ CS senior at **UMass Amherst** (3.83 GPA, Dean's List 4×) building AI-powered a
 
 📍 Amherst, MA · ✉️ [ashwinsayenju@gmail.com](mailto:ashwinsayenju@gmail.com) · 💼 [LinkedIn](https://www.linkedin.com/in/ashwin-sayenju)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
-  <img src="./profile-3d-contrib/profile-green-animate.svg" alt="Ashwin's 3D GitHub contribution graph" />
-</picture>
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <a href="https://github.com/asayenju">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=2C9CDB&center=true&vCenter=true&width=640&lines=Agentic+systems+%26+RAG+pipelines;Cut+LLM+tokens+per+query+300K+%E2%86%92+10K;Backend+infra+that+stays+reliable;Open+to+new+grad+SWE+roles+(2027)" alt="Typing animation" />
+  </a>
+</p>
 
 ---
 
