@@ -17,7 +17,7 @@ CS senior at **UMass Amherst** (3.83 GPA, Dean's List 4×) building AI-powered a
 
 **Right now** I'm focused on agentic systems, RAG pipelines, and the backend infrastructure that keeps them reliable. I'm looking for new grad software engineering roles starting 2027.
 
-📍 Amherst, MA · ✉️ [ashwinsayenju@gmail.com](mailto:ashwinsayenju@gmail.com) · 💼 [LinkedIn](https://www.linkedin.com/in/ashwin-sayenju)
+📍 Amherst, MA
 
 </td>
 </tr>
@@ -27,6 +27,12 @@ CS senior at **UMass Amherst** (3.83 GPA, Dean's List 4×) building AI-powered a
   <a href="https://github.com/asayenju">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=2C9CDB&center=true&vCenter=true&width=640&lines=Agentic+systems+%26+RAG+pipelines;Cut+LLM+tokens+per+query+300K+%E2%86%92+10K;Backend+infra+that+stays+reliable;Open+to+new+grad+SWE+roles+(2027)" alt="Typing animation" />
   </a>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/ashwin-sayenju"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:ashwinsayenju@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/asayenju"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
 ---
