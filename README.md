@@ -6,6 +6,12 @@ CS senior at **UMass Amherst** (3.83 GPA, Dean's List 4×) building AI-powered a
 
 📍 Amherst, MA · ✉️ [ashwinsayenju@gmail.com](mailto:ashwinsayenju@gmail.com) · 💼 [LinkedIn](https://www.linkedin.com/in/ashwin-sayenju)
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
+  <img src="./profile-3d-contrib/profile-green-animate.svg" alt="Ashwin's 3D GitHub contribution graph" />
+</picture>
+
 ---
 
 ## What I've shipped
